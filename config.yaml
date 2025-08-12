@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    deepak:
+      email: deepak@example.com
+      name: Deepak Sharma
+      password: <hashed-password-here>
+
+cookie:
+  expiry_days: 30
+  key: some_random_cookie_key
+  name: streamlit_auth
+
+preauthorized:
+  emails:
+    - admin@example.com
